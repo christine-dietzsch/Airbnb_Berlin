@@ -6,11 +6,17 @@ Berlin faces a severe housing shortage. According to a 2020 report by the Berlin
 
 # DATA
 The data consists of csv files and a geoJOSN shapefile. For the time series analysis, the data is an xlsx-file.
-## Source: The data is from http://insideairbnb.com/get-the-data/ . 
+## Source: 
+The data is from http://insideairbnb.com/get-the-data/ . 
 I downloaded the airbnb Berlin data sets. The data is from June 2023 and originally consists of 7 data files. It gives several information, like listings in geographic areas of a city, pricings, reviews, and others.
-## Authors: ‘Inside Airbnb’ is an activist investigatory/watchdog website, launched by Murray Cox in 2016. 
+More information in this data dictionary: https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit#gid=1322284596
+
+## Authors: 
+‘Inside Airbnb’ is an activist investigatory/watchdog website, launched by Murray Cox in 2016. 
 It reports and visualizes scraped data on the property rental marketplace company Airbnb, focusing on highlighting illegal renting on the site and gentrification caused by landlords buying properties to rent on Airbnb. (source: https://en.wikipedia.org/wiki/Inside_Airbnb)
-## Collection method: the data is web-scraped. 
+## Collection method: 
+the data is web-scraped. 
+
 ## Additional data:
 For the time series analysis, I connected with the platform quandl with consumer price data. Find it here: https://data.nasdaq.com/data/RATEINF/CPI_DEU-consumer-price-index-germany
 
